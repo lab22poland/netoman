@@ -1,0 +1,43 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# NETo Manual Repository Context
+
+⚠️ **CONTEXT**: You are now working in the `netoman/` submodule - the documentation and manual repository.
+
+## Repository Context
+- **Independent Repository**: This is a separate git repository from the main project
+- **Remote**: https://github.com/lab22poland/netoman.git
+- **Purpose**: Comprehensive documentation, manuals, and user guides for the NETo suite
+
+## Content Focus
+- **User Documentation**: Complete user guides and tutorials
+- **Technical Documentation**: API references and technical specifications  
+- **Installation Guides**: Setup and configuration instructions
+- **Training Materials**: Learning resources and best practices
+- **Reference Manuals**: Quick reference guides and cheat sheets
+
+## Documentation Standards
+- **Language**: Clear, concise English
+- **Format**: Primarily Markdown for web compatibility
+- **Structure**: Organized hierarchy with clear navigation
+- **Examples**: Include practical code examples and screenshots
+- **Maintenance**: Keep documentation up-to-date with code changes
+
+## Repository Structure
+```
+netoman/
+├── docs/           # Main documentation
+├── manuals/        # User and technical manuals
+├── tutorials/      # Step-by-step tutorials
+├── reference/      # Quick reference materials
+└── assets/         # Images, diagrams, and media
+```
+
+## Git Operations
+- Git commands in this directory operate on the netoman submodule repository
+- This repository uses `main` branch (never `master`)
+- Independent development and versioning from parent project
+- Documentation versioning should align with software releases
