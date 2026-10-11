@@ -316,11 +316,9 @@ tramp
 *.iws
 .idea/
 
-# Cursor IDE (keep rules, ignore cache)
-.cursor/logs/
-.cursor/workspaceStorage/
-.cursor/settings.json
-.cursor/extensions.json
+# Claude Code (personal, not shared)
+.claude/settings.local.json
+CLAUDE.local.md
 
 #########################
 # Temporary files
